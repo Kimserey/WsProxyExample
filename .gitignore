@@ -1,0 +1,11 @@
+*.dll
+packages/*
+Library1/bin*
+Library2/bin*
+Library3/bin*
+ProxyExample/bin*
+Library1/obj*
+Library2/obj*
+Library3/obj*
+ProxyExample/obj*
+ProxyExample/Content/*
