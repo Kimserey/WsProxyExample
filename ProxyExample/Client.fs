@@ -20,7 +20,7 @@ type Dog' =
     static member Walk(x:Dog)  =
         x.Name + " is walking"
 
-    [<Inline "$x.Test + ' said hello'">]
+    [<Inline "$x.Name + ' said hello'">]
     static member SayHello(x:Dog) = X<string>
 
 [<JavaScript>]        
