@@ -42,7 +42,9 @@ module Client =
           Age = 5 }
 
     let main =
-        [ text (Dog.Walk dog)
+        [ text (dog.Name)
+          br [] :> Doc
+          text (Dog.Walk dog)
           br [] :> Doc
           text (Dog.SayHello dog)
           br [] :> Doc
